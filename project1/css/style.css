@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Josefin+Sans:ital,wght@0,100;1,100&family=Lobster&family=Montserrat:wght@100&family=PT+Sans+Caption&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Josefin+Sans:ital,wght@0,100;1,100&family=Lobster&family=Mansalva&family=Montserrat:wght@100&family=PT+Sans+Caption&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    height: 650px;
+    background-image: url('/images/bg1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    opacity: 0.85;
+    clip-path: polygon(0 0,100% 0,100% 100%,70% 90%,0 100%);
+}
+.navbar{
+    height: 100px;
+    background-color: transparent;
+    display: flex;
+    
+}
+.logo{
+    margin: 5px;
+
+}
+.logo h2{
+    text-transform: capitalize;
+    color: #f03c28;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 0.9;
+    font-family: 'Lobster', cursive;
+}
+.logo h2:hover{
+    cursor: pointer;
+    color: #ff1900;
+}
+.logo p{
+    font-size: 20px;
+    margin-left: 50px;
+    color: white;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-style: italic;
+    font-family: 'Mansalva', cursive;
+}
+.cont{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding-top: 100px;
+    width: 600px;
+    padding-left: 500px;
+    
+}
+
+.cont p,span{
+    display: block;
+    font-size: 50px;
+    line-height: 2;
+    font-family: 'Lobster', cursive;
+    text-transform: capitalize;
+}
+.cont button{
+    height: 50px;
+    width: 150px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    background-color:#f03c28;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.cont button:hover{
+    cursor: pointer;
+    background-color: #ff1900;
+    color: black;
+}
+.best .head{
+    color:#f03c28;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 60px;
+    
+}
+.card-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 2.5rem;
+    margin: 30px;
+}
+.card-wrapper .card{
+    padding: 3rem 2rem;
+    position: relative;
+    padding-top: 4rem;
+    text-align: center;
+    box-shadow: 5px 3px 3px 1px black;
+    background-color: gold;
+}
+.card-wrapper .card img{
+    height: 300px;
+
+}
+.card-wrapper .card img:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.card-wrapper .card h2{
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+.but button{
+    height: 50px;
+    width: 150px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    background-color:#f03c28;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    
+
+}
+.but{
+    padding-top: 40px;
+    padding-left: 700px;
+    padding-bottom: 30px;
+}
+.but button:hover{
+    cursor: pointer;
+    background-color: #ff1900;
+    color: black;
+}
+
