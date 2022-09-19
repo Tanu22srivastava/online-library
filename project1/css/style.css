@@ -140,4 +140,33 @@ header{
     background-color: #ff1900;
     color: black;
 }
+.section span{
+    color: #ff1900;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact{
+    margin-left: 525px;
+}
 
+.sec{
+    margin-bottom: 20px;
+}
+.sec h3{
+    color: #ff1900;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.sec input{
+    width: 500px;
+    height: 35px;
+}
+
+#message{
+    height: 300px;
+}
+#inp{
+    margin-bottom: 10px;
+}
